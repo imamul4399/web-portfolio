@@ -64,11 +64,11 @@ background-color: white;
     border-left: 7px solid;
     border-image: linear-gradient(180deg,lightsalmon, tomato);
     border-image-slice: 1;
-    height: 400px;
+    
 }
 #baby-web{
     border-left: 7px solid ;
-    height: 400px;
+    
     border-image: linear-gradient(180deg, blue, cyan );
     border-image-slice: 1;
 
