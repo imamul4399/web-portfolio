@@ -47,6 +47,7 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position:right;
+    overflow: hidden;
 }
 .single-experience{
 box-shadow: 10px 10px 40px gray;
@@ -64,16 +65,22 @@ background-color: white;
     border-left: 7px solid;
     border-image: linear-gradient(180deg,lightsalmon, tomato);
     border-image-slice: 1;
+    height: 400px;
+    
     
 }
 #baby-web{
     border-left: 7px solid ;
-    
-    border-image: linear-gradient(180deg, blue, cyan );
+     border-image: linear-gradient(180deg, blue, cyan );
     border-image-slice: 1;
+    height: 400px;
+    
 
 }
 footer p{
+    overflow: hidden;
     text-align: center;
     font-size: 12px;
-}
+    width: 100%;
+    padding: 25px;
+} 
